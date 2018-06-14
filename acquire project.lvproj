@@ -246,6 +246,7 @@ AddOutputFilter chunkFilter
 			</Item>
 		</Item>
 		<Item Name="variable.lvlib" Type="Library" URL="../variable/variable.lvlib"/>
+		<Item Name="Write to table tag (SubVI).vi" Type="VI" URL="../subVI/Write to table tag (SubVI).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI Skyline Tag.lvlib" Type="Library" URL="/&lt;vilib&gt;/Skyline/Tag/Shared/NI Skyline Tag.lvlib"/>
