@@ -114,6 +114,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Tag initialize.vi" Type="VI" URL="../subVI/Tag initialize.vi"/>
 			<Item Name="Tag Write.vi" Type="VI" URL="../subVI/Tag Write.vi"/>
 			<Item Name="Write to TDMS(SubVI).vi" Type="VI" URL="../subVI/Write to TDMS(SubVI).vi"/>
+			<Item Name="Write to table tag (SubVI).vi" Type="VI" URL="../subVI/Write to table tag (SubVI).vi"/>
 		</Item>
 		<Item Name="Chassis" Type="cRIO Chassis">
 			<Property Name="crio.ProgrammingMode" Type="Str">express</Property>
@@ -246,7 +247,6 @@ AddOutputFilter chunkFilter
 			</Item>
 		</Item>
 		<Item Name="variable.lvlib" Type="Library" URL="../variable/variable.lvlib"/>
-		<Item Name="Write to table tag (SubVI).vi" Type="VI" URL="../subVI/Write to table tag (SubVI).vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI Skyline Tag.lvlib" Type="Library" URL="/&lt;vilib&gt;/Skyline/Tag/Shared/NI Skyline Tag.lvlib"/>
