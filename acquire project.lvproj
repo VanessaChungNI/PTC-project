@@ -197,6 +197,8 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Data.ctl" Type="VI" URL="../typedefs/Data.ctl"/>
 		<Item Name="cRioWebservice" Type="Web Service">
+			<Property Name="Bld_buildSpecName" Type="Str"></Property>
+			<Property Name="Bld_version.build" Type="Int">1</Property>
 			<Property Name="ws.autoIncrementVersion" Type="Bool">true</Property>
 			<Property Name="ws.disconnectInline" Type="Bool">true</Property>
 			<Property Name="ws.disconnectTypeDefs" Type="Bool">false</Property>
@@ -208,7 +210,7 @@ AddOutputFilter chunkFilter
 			<Property Name="ws.serveDefaultDoc" Type="Bool">true</Property>
 			<Property Name="ws.SSE2" Type="Bool">true</Property>
 			<Property Name="ws.static_permissions" Type="Str"></Property>
-			<Property Name="ws.version.build" Type="Int">37</Property>
+			<Property Name="ws.version.build" Type="Int">38</Property>
 			<Property Name="ws.version.fix" Type="Int">0</Property>
 			<Property Name="ws.version.major" Type="Int">1</Property>
 			<Property Name="ws.version.minor" Type="Int">0</Property>
