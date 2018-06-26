@@ -26,7 +26,7 @@
 	</Item>
 	<Item Name="RT CompactRIO Target " Type="RT CompactRIO">
 		<Property Name="alias.name" Type="Str">RT CompactRIO Target </Property>
-		<Property Name="alias.value" Type="Str">10.156.1.111</Property>
+		<Property Name="alias.value" Type="Str">10.156.1.89</Property>
 		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,Linux;CPU,x64;DeviceCode,78E5;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">78E5</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
